@@ -1,0 +1,253 @@
+/* styles for the HTML elements on the team lead home page */
+
+html {
+	background-color: rgb(217, 57, 42);
+}
+
+body {
+	width: auto;
+}
+
+/* changing the anchor tags to automatically display in all uppercase*/
+a {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/* formatting the navigation bar along with the sub navigation bar*/
+.navbar {
+	background: #333;
+}
+
+.navbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+}
+
+.navbar > ul > li {
+	float: left;
+	position: relative;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	display: block;
+}
+
+.navbar ul li:hover a {
+	background: #ad0000;
+}
+
+.navbar ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 180px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+
+.navbar ul li:hover > ul {
+	display: block;
+}
+
+.navbar ul ul li:hover a {
+	background: #C0C0C0;
+}
+
+.navbar ul ul li {
+	position: relative;
+}
+
+.logout {
+	float: right;
+}
+
+.lougout2 ul li:hover a {
+	background: #ad0000;
+}
+
+.logout2 a {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+}
+
+/* formatting the picture display as part of a display banner at the top of the page*/
+.header {
+	background-color: #919191;	
+	max-width: 100%
+}
+
+.header2 {
+	background-color: black;
+	height: auto;
+	max-width: 100%
+}
+
+.img {
+	max-width: 100%;
+	border-radius: 6px;
+	height: auto;
+	float: left;
+}
+
+.greeting {
+	float: right;
+}
+
+h3 {
+	color: white;
+	font-size: 18px;
+}
+
+main {
+	padding: 10px;
+}
+
+.side1 {
+	float: left;
+	border-radius: 50px;
+	color: white;
+    margin: 0;
+    width: 20%; 
+	height: 450px;
+	background-color:white; 
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+div.side2 {
+	float: left;
+	border-radius: 50px;
+	color: white;
+    margin-left: 15%;
+    width:20%; 
+	height: 450px;
+	text-align:left;
+	background-color:white; 
+	margin-top: 1%;
+}
+
+.panel {
+	float: left;
+	width: 4%;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+}
+
+.entryForm {
+	padding: 12px;
+	text-align: right;
+	background: #333;
+	color: white;
+}
+
+.pdForm {
+	padding: 8px;
+	text-align: center;
+	background: #333;
+	width: 325px;
+	margin-left: 40%;	
+	color: white;
+}
+
+h5 {
+	color: red;
+	font-size: 8px;
+}
+
+/************************  added for cost page ***********************************************/
+
+table {
+    border: thick solid;
+	width:50%;
+    border-collapse: collapse;
+	margin: 32px;  /*this creates space between the tables !!!!!!!  */
+	background-color: #d4d4d4;
+	font-weight: bold;
+	
+}
+#weightFactors {/* this is for the small table of factors on top*/ 
+	 border: thick solid;
+	width:26%;
+    border-collapse: collapse;
+	margin: 28px;  /*this creates space between the tables !!!!!!!  */
+	background-color: #d4d4d4;
+	font-weight: bold;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .8em .8em .8em .8em;
+    vertical-align: top;
+    text-align: center;
+	width:80%;
+}
+aside {
+	
+/* these 4 items were all needed to place this aside to the right*/
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
+textarea  
+{  
+   font-family:"Arial";  
+   font-size: 14px; 
+   background-color: #d4d4d4;
+}
+hr {
+ width: 70%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;	
+}
+#calculateButton { /* enlarges button*/
+     width: 100px;
+     height: 40px;
+	
+}
+
+fieldset {     /* This gets rid of the weird border around it*/
+    border: 0;
+	
+	padding-bottom: 15px;
+}
+
+select {
+font-weight: bold;
+}	
+#input.text {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
